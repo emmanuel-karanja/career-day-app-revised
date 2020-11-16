@@ -47,7 +47,8 @@
 
  Then, open the directory '~/career-day-app-revised/db/data.sql'
 
- and execute the sql in the data.sql file to populate the data in your database.
+ Then, execute the sql in the data.sql file to populate the data in your database.
+
  
  When you visit 'http:/localhost:8080/api/v1/jobs' you should see a list of jobs as JSON objects.
 
