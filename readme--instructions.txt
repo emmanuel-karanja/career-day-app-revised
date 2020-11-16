@@ -54,10 +54,16 @@
 
  PLEASE NOTE:
  
- 
 
  The server runs on 'http://localhost:8080'  and the root URL for the API is
   'http://localhost:8080/api/v1'.
+
+
+ Also note that 'career-day-app doc.pdf' in the root of the project directory has the specs
+ for the API.
+
+ You can also open 'http:/localhost:8080/swagger-ui.html' to see the live self-documented API
+ with the ability to test it right there and then.
 
  
  
