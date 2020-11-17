@@ -83,7 +83,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         "/**/*.css",
                         "/**/*.js")
                         .permitAll()
-                    .antMatchers("/api/v1/auth/**","/api/v1/jobs/**","/api/v1/job-applicants/**")
+                    .antMatchers("/api/v1/auth/**","/api/v1/jobs/**","/api/v1/job-applicants/**","/v2/api-docs",
+                    		"/swagger-ui.html","/swagger-ui/**")
                         .permitAll()
                     .antMatchers("/api/v1/user/checkPhoneAvailability",
                     		     "/api/v1/user/checkEmailAvailability",
@@ -92,6 +93,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         .permitAll()
                     .antMatchers(HttpMethod.GET, "/api/v1/jobs/**", "/api/v1/users/**")
                         .permitAll()
+                    .antMatchers("/swagger-resources/**").permitAll()
                     .anyRequest()
                         .authenticated();
 

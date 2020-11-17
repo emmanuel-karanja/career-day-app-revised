@@ -21,14 +21,12 @@ import com.careerday.careerdayapp.DTOs.JobUpdateRequest;
 import com.careerday.careerdayapp.DTOs.PagedResponse;
 import com.careerday.careerdayapp.Entities.Job;
 import com.careerday.careerdayapp.Entities.JobStatus;
-import com.careerday.careerdayapp.Entities.JobType;
 import com.careerday.careerdayapp.Entities.JobTypeName;
 import com.careerday.careerdayapp.Entities.LevelOfEducation;
 import com.careerday.careerdayapp.Exceptions.BadRequestException;
 import com.careerday.careerdayapp.Exceptions.DuplicateEntityException;
 import com.careerday.careerdayapp.Exceptions.ResourceNotFoundException;
 import com.careerday.careerdayapp.Repositories.JobRepository;
-import com.careerday.careerdayapp.Repositories.JobTypeRepository;
 import com.careerday.careerdayapp.Utils.AppConstants;
 
 
